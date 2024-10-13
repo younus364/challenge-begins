@@ -80,19 +80,22 @@ nav .nav-btn {
 }
 
 /* development section */
-.developer-section{
+.common-section {
     margin: 70px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
-.developer-div{
+
+.developer-div {
     padding: 80px;
 }
+
 .web-dev {
     display: flex;
     gap: 90px;
-   
+
 }
+
 .dev-heading {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
@@ -104,9 +107,44 @@ nav .nav-btn {
 
 .dev-describtion {
     color: rgb(13, 19, 33);
+    opacity: 0.7;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
 }
 
+/* My Inspiration */
+.inspiration {
+    margin: 70px 150px;
+    border-radius: 16px;
+}
+
+.inspiration-ifram {
+    padding: 32px;
+}
+
+/* My Current Target */
+.current-target {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.html-dection {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-section {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.javascript-section {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
