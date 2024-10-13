@@ -131,6 +131,14 @@ nav .nav-btn {
     align-items: center;
 }
 
+.current-heading {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
 .html-dection {
     padding: 40px;
     border-radius: 16px;
@@ -147,4 +155,23 @@ nav .nav-btn {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+/*  */
+.next-terget {
+    display: flex;
+    margin: 24px;
+    align-items: center;
+    padding: 30px;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.next-terget img {
+    width: 90px;
+    height: 80px;
+
 }
