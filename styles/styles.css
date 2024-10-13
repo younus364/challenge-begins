@@ -175,3 +175,16 @@ nav .nav-btn {
     height: 80px;
 
 }
+
+/* footer section */
+.footer-section {
+    background-image: url("../assets/handshake.jpg");
+}
+
+.footer-heading {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
